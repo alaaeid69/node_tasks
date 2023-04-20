@@ -20,4 +20,4 @@ const studentFunction =(req , res ) =>{
 
 };
 app.get('/students', studentFunction);
-app.listen(3000);
+app.listen(6000);

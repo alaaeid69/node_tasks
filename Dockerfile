@@ -5,5 +5,5 @@ WORKDIR /app
 COPY first.js package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 3000
+EXPOSE 6000
 CMD node first.js
